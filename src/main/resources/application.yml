@@ -3,9 +3,9 @@ server:
   port: 5678
 
 #wecheat configure
-wx:
-  app-id:
-  app-secret:
+wx:oWoxv5_tlbYCXCNqw_sITP2Y6C64,oWoxv5zCn54YSdUMr1fctPVpsAm4
+  app-id:wx2e650cc251405cad
+  app-secret:0c854ee5724d4be1816de6e6fe9714d6
   app-get-access-token: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential
   app-send-msg: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
   #hito
