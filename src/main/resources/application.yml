@@ -20,3 +20,11 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://127.0.0.1:3306/partnerpush?userUnicode=true&characterEncoding=UTF8&useSSL=false
+ env:
+      APP_ID: ${{ secrets.APP_ID }}
+      APP_SECRET: ${{ secrets.APP_SECRET }}
+      TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
+      USER_ID: ${{ secrets.USER_ID }}
+      START_DATE: ${{ secrets.START_DATE }}
+      BIRTHDAY: ${{ secrets.BIRTHDAY }}
+      CITY: ${{ secrets.CITY }}
